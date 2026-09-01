@@ -1,0 +1,15 @@
+# Compiled binaries / build output
+build/
+*.dSYM/
+*.o
+*.out
+outDebug
+
+# macOS
+.DS_Store
+
+# Compiled executables (Mach-O, no extension) sit next to sources
+templete.cpp/templete
+templete.cpp/templete 1
+templete.cpp/templete2
+static/program1
