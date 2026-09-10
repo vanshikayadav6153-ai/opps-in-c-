@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class example
+class Example
 {
     int a;
     public:
@@ -8,20 +8,21 @@ class example
     void display();
 };
 
-void example::geta(int x)
+void Example::geta(int x)
 {
     a = x;
     cout << x;
 }
 
-void example::display()
+void Example::display()
 {
     cout << a;
 }
 
 int main()
 {
-    example E1;
+    Example E1;
     E1.geta(12);
+    E1.display();
     return 0;
 }
