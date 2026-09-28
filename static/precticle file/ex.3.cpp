@@ -9,13 +9,13 @@ public:
         cout << "Inside byValue, x = " << x << endl;
     }
 
-    // Call by reference - alias of original, original IS changed
+d
     void byReference(int &x) {
         x = x + 10;
         cout << "Inside byReference, x = " << x << endl;
     }
 
-    // Call by address - pointer to original, original IS changed
+d
     void byAddress(int *x) {
         *x = *x + 10;
         cout << "Inside byAddress, *x = " << *x << endl;

@@ -1,0 +1,6 @@
+Evolution of Programming paradigms (monolithic, procedural, structured, OOP),
+Structured vs Object Oriented Development, Structure of C++ program, basics of classes
+and objects, scope resolution operator (::), reference variable, function, parameter
+passing (value, reference and address) , inline functions, function overloading, default
+arguments, function with variable number of arguments (variadic functions), auto
+keyword, range based for loop

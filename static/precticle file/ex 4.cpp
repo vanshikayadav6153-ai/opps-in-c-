@@ -2,18 +2,17 @@
 using namespace std;
 
 class Calculator {
-public:
-    // Inline function - compiler replaces the call with the code itself
+public:f
     inline int square(int x) {
         return x * x;
     }
 
-    // Default arguments - if b or c is not passed, 0 is used
+public:
     int add(int a, int b = 0, int c = 0) {
         return a + b + c;
     }
 
-    // Function overloading - same name, different parameters
+s
     int multiply(int a, int b) {
         return a * b;
     }
