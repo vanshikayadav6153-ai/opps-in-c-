@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/vanshikayadav/opps cse-36/static",
-      "program": "/Users/vanshikayadav/opps cse-36/static/build/Debug/outDebug"
+      "cwd": "/Users/vanshikayadav/opps cse-36/static/precticlas ",
+      "program": "/Users/vanshikayadav/opps cse-36/static/precticlas /build/Debug/outDebug"
     },
     {
       "name": "C/C++: clang++ build and debug active file",
