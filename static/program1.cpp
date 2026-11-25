@@ -1,23 +1,20 @@
 #include <iostream>
 using namespace std;
-
-class example {
+class Example
+{
     static int n;
 
 public:
     void display();
 };
-
-// static member definition (outside the class)
-int example::n = 10;
-
-// member function definition (outside the class)
-void example::display() {
-    cout << n << endl;
+int Example::n = 10;
+void Example::display()
+{
+    cout << n;
 }
 
-int main() {
-    example obj;
-    obj.display();
-    return 0;
+int main()
+{
+    Example E1;
+    E1.display();
 }

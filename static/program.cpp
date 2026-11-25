@@ -1,11 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-class example{
-    public:
+class Example
+{
     static int n;
+
+public:
+    static void display();
 };
-int example::n=10;
-int main (){
-    cout << example::n;
-    return 0;
+int Example::n = 10;
+void Example::display()
+{
+    cout << n;
+}
+int main()
+{
+    Example::display();
 }
